@@ -5,10 +5,7 @@
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+<br>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -35,27 +32,40 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
 
-  ![First we will setup our VM within our Resource Group](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/46ec1528-4b15-4a65-b8ce-8642211b59c9)
+![F](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/94df29ac-c72c-4bcd-9f4f-8e5bf54f189a)
+
 
 </p>
 <p>
-First we will setup our VM within our Resource Group. Once that has been established with windows 10 OS. We will then create our second VM with Ubuntu Server 20.04. Making sure this 
-is all under the same Resource Group.
+First we will setup our VM within our Resource Group. Once that has been established with windows 10 OS. We will then create our second VM with Ubuntu Server 20.04. Making sure this is all under the same Resource Group.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![N](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/96a39fee-46ab-485d-a66b-80c7580173f8)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that we have both Virtual Machines running.We will remote into first "VM" by pasting Public IP into address for Remote Desktop.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![o](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/c67282f7-a9d0-48a5-9a49-259a229bc705)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logging into Virtual Machine one now to download Wireshark in order to observe ICMP Traffic flow.
 </p>
 <br />
+<br>
+
+![tempsnip](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/ea33432c-b2ce-4e49-b334-6e49ab23c6d4)
+<br>
+Now we will proceed and go through the setup wizard to install.
+<br>
+<br>
+
+
