@@ -79,10 +79,39 @@ Now we are observing ICMP traffic flow.
 <br>
 <br>
 
-![tempsnip4](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/1117e1de-7232-4ff8-8b03-306c214efe31)
+![5](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/9a035cab-3b51-435a-b51c-e3b57e71b44b)
 <br>
-Opening up command prompt and pinging VM 2 private IP address. Once we have pinged the address we can see that there where four packets sent and recieved with 
+Opening up Powershell and pinging VM 2 private IP address. Once we have pinged the address we can see that there where four packets sent and recieved with 
 zero packets lost.
+<br>
+<br>
+
+![6](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/56de7a96-8e01-428f-9019-846dc20687c9)
+<br>
+Within Powershell we are going to perpetual ping on using VM 2 private IP address 10.0.0.5 -t 
+<br>
+<br>
+
+![7](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/7e9a5092-e0b0-4057-892a-6559aa393d7a)
+<br>
+We are now going to proceed and open up the Network Security Group for VM2. From here we are going to create an inbound rule that will 
+deny all inbound ICMP traffic. Once this rule is added the traffic will be blocked.
+<br>
+<br>
+
+![8](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/cfb62f7b-3323-4b8e-a7f1-c621bfda9089)
+<br>
+Now we are able to see that the request has timed out.
+<br>
+<br>
+
+![9](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/c4ec10f0-6577-4060-8256-34f49ddfeb2e)
+<br>
+Our VM is now replying to us again now that we have deleted the inbound rule.
+<br>
+<br>
+
+
 
 
 
