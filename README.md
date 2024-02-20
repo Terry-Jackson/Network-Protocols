@@ -67,5 +67,22 @@ Logging into Virtual Machine one now to download Wireshark in order to observe I
 Now we will proceed and go through the setup wizard to install.
 <br>
 <br>
+![tempsni2](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/23f77eaa-b39a-4f12-88ec-fdfcfdeb8af9)
+<br>
+Click on the shark button top left corner in order to view live traffic and to capture packets.
+<br>
+<br>
+
+![tempsnip3](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/6c1f453f-bbb5-4475-a812-f07a50463f8f)
+<br>
+Now we are observing ICMP traffic flow.
+<br>
+<br>
+
+![tempsnip4](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/1117e1de-7232-4ff8-8b03-306c214efe31)
+<br>
+Opening up command prompt and pinging VM 2 private IP address. Once we have pinged the address we can see that there where four packets sent and recieved with 
+zero packets lost.
+
 
 
