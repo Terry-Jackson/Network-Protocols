@@ -111,6 +111,53 @@ Our VM is now replying to us again now that we have deleted the inbound rule.
 <br>
 <br>
 
+![10](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/e9abfbcf-914c-4083-972f-d5f46c46d4d3)
+<br>
+Now we are filtering for SSH traffic and we will input Yes to continue. Notice the traffic in wireshark. 
+<br>
+<br>
+
+![11](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/12d1104c-21d3-4741-8234-5962c1951942)
+<br>
+At this point we will input the password for VM2 remembering that we will not be able to see the input.
+<br>
+<br>
+
+![12](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/fc9fd588-0c0a-4280-9f0b-2ec87a681935)
+<br>
+We can tell that we are logged into VM2 now. Our user profile has popped up.
+<br>
+<br>
+
+![13](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/1af775db-dd97-4c24-8258-6ecc56c5fb49)
+<br>
+We are now using different commands on the linux command line and observing the traffic. Once we are done we will exit. Then ipconfig to make sure we are back on VM 1.
+<br>
+<br>
+
+![14](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/0f651385-2400-49a0-acab-68ac822502bd)
+<br>
+Observing DHCP traffic now. We can see the new address being shown.
+<br>
+<br>
+
+![15](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/f4e4cf8d-72b3-4757-b9c8-b59fd339826e)
+<br>
+Now we are filtering for DNS Traffic.
+<br>
+<br>
+
+![16](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/0d66dcea-be3c-4d8f-a324-fcbe874879ca)
+<br>
+We can ask our DNS server whats the ip address for any site. As we can see we looked up www.msn.com and it shows the ip address for msn.
+<br>
+<br>
+![17](https://github.com/Terry-Jackson/Network-Protocols/assets/155121596/ebd0ee48-11b3-446b-9269-49d896eb4ee3)
+<br> 
+Viewing the RDP traffic using tcp.port==3389.
+
+
+
 
 
 
